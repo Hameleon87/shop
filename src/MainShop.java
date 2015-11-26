@@ -18,6 +18,7 @@ public class MainShop {
 
         customer.addOrder(new Order(customer, item1, 3));
         customer.addOrder(order2);
+        customer.addOrder(order2);
 
         customer.showOrders();
         customer.showOrders();
