@@ -14,10 +14,12 @@ public class MainShop {
         order1.addItem(new Item("Boots", "10/12/2020", new Category("Shoes")));
 
         item1.changeCategory(low_alcohol);
+        item1.changeCategory(low_alcohol);
 
         customer.addOrder(new Order(customer, item1, 3));
         customer.addOrder(order2);
 
+        customer.showOrders();
         customer.showOrders();
 
         Item.itemsList();
