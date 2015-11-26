@@ -12,6 +12,7 @@ public class MainShop {
         order1.addItem(new Item("Whisky", "10/05/2020", alcohol));
         order1.addItem(new Item("Rom", "10/12/2020", alcohol));
         order1.addItem(new Item("Boots", "10/12/2020", new Category("Shoes")));
+        order1.addItem(new Item("Vodka", "10/12/2020", new Category("Shoes")));
 
         item1.changeCategory(low_alcohol);
         item1.changeCategory(low_alcohol);
