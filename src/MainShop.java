@@ -8,6 +8,7 @@ public class MainShop {
         Customer customer = new Customer("Vova");
         Order order1 = new Order(customer, item1, 1);
         Order order2 = new Order(new Customer("Shket"), item1, 2);
+        Order order3 = new Order(new Customer("Fan"), item1, 2);
 
         order1.addItem(new Item("Whisky", "10/05/2020", alcohol));
         order1.addItem(new Item("Rom", "10/12/2020", alcohol));

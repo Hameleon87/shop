@@ -26,6 +26,7 @@ public class Item extends ItemCustomer {
         this.category.removeItem(this);
         this.category = newCategory;
         this.category.addItem(this);
+        System.out.println("Category was changed");
     }
 
     public static void itemsList() {
